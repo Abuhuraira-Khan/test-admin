@@ -1,0 +1,5 @@
+.all{
+  color: var(--scnd-crl);
+  padding: 10vw;
+  background-color: var(--first-color);
+}
