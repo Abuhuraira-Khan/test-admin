@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+    @apply text-3xl font-bold;
+    @apply capitalize
+}
+h2{
+    @apply text-2xl font-bold;
+    @apply capitalize
+
+}
+h3{
+    @apply text-xl font-bold;
+    @apply capitalize
+
+}
+h4{
+    @apply text-lg font-bold;
+    @apply capitalize
+
+}
+h5{
+    @apply text-sm font-bold;
+    @apply capitalize
+
+}
+h6{
+    @apply text-xs font-bold;
+    @apply capitalize
+
+}
+
+textarea{
+    resize: none;
+    padding: 5px;
+}
+input{
+    padding: 3px;
+}
